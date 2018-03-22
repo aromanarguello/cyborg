@@ -17,6 +17,18 @@
 #center-nav-container {
     width: 70%;
     height: 500px;
-    border: 1px solid black;
     margin: 0 auto;
+    background-image: url('erlenmeyer.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.schedule {
+    width: 30%;
+    position:static;
+    border-radius: 5px;
+}
+
+.navbar {
+    margin: 0;
 }
