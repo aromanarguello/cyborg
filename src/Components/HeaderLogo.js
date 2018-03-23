@@ -2,8 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const HeaderLogo = () => {
+    const style = {
+        width: '400px',
+        height: 'auto'
+    }
+
     return (
-        <h1>Logo</h1>
+        <img src={require('../LaboratorioClnico/SmallLogo.png')} style={style} />
     );
 }
 

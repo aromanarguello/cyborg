@@ -15,15 +15,15 @@ export default class Schedule extends Component {
           <tbody>
             <tr>
               <th scope="row">Central</th>
-              <td></td>
+              <td>6:00 AM - 5:00 PM</td>
             </tr>
             <tr>
               <th scope="row">Crt. Sur</th>
-              <td></td>
+              <td>6:00 AM - 5:00 PM</td>
             </tr>
             <tr>
               <th scope="row">Jean Paul</th>
-              <td></td>
+              <td>6:00 AM - 5:00 PM</td>
             </tr>
           </tbody>
         </Table>
