@@ -6,12 +6,12 @@ import Schedule from './CenterNavLeft'
 
 
 export default class CenterNav extends Component {
-render() {
-    return (
-        <div className='navbar'>
-            <NavBar />
-            <Schedule />
-        </div>
+    render() {
+        return (
+            <div className='navbar'>
+                <NavBar />
+                <Schedule />
+            </div>
         );
     }
 }

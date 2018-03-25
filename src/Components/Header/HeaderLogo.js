@@ -8,7 +8,7 @@ const HeaderLogo = () => {
     }
 
     return (
-        <img src={require('../LaboratorioClnico/SmallLogo.png')} style={style} />
+        <img src={require('../../LaboratorioClnico/SmallLogo.png')} style={style} />
     );
 }
 

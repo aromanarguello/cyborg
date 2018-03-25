@@ -26,8 +26,17 @@ Navy Blue Logo: #234082
     background-image: url('microscope.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     border-radius: 3px;
 }
+
+#infoboxes-container {
+    margin: 20px 0 20px 0;
+    border: 1px solid;
+    width: auto;
+    height: 500px;
+}
+
 
 .schedule {
     width: 250px;
@@ -39,4 +48,8 @@ Navy Blue Logo: #234082
 
 .navbar {
     margin: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: auto;
+    border: black;
 }
