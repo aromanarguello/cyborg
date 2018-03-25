@@ -6,6 +6,7 @@ import InfoBoxes from '../Components/InfoBoxes/InfoBoxes'
 
 
 class App extends Component {
+
   
   render() {
     const header = <HeaderLogo />
@@ -19,6 +20,7 @@ class App extends Component {
         <div id='center-nav-container'>
           {centerNav}
         </div>
+        <hr/>
         <div id='info-boxes-container'>
           {infoBoxes}
         </div>

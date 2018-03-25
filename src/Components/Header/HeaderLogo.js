@@ -3,12 +3,14 @@ import PropTypes from 'prop-types'
 
 const HeaderLogo = () => {
     const style = {
-        width: '400px',
+        width: '500px',
         height: 'auto'
     }
 
     return (
-        <img src={require('../../LaboratorioClnico/SmallLogo.png')} style={style} />
+        <img src={require('../../LaboratorioClnico/SmallLogo.png')}
+            // style={style}
+            id='logo' />
     );
 }
 

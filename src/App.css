@@ -19,6 +19,10 @@ Navy Blue Logo: #234082
     margin-bottom: 20px;
 }
 
+#logo {
+    width: 400;
+}
+
 #center-nav-container {
     width: 70%;
     height: 500px;
@@ -32,15 +36,19 @@ Navy Blue Logo: #234082
 
 #infoboxes-container {
     margin: 20px 0 20px 0;
-    border: 1px solid;
     width: auto;
     height: 500px;
+    display: flex;
+    justify-content: space-around;
 }
 
+hr {
+    width: 40%;
+    height: 3px;
+}
 
 .schedule {
     width: 250px;
-    position:static;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.5);
     border: 0;
@@ -52,4 +60,32 @@ Navy Blue Logo: #234082
     border-bottom-right-radius: 0;
     height: auto;
     border: black;
+}
+
+.infoboxes {
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    #infoboxes-container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 20px;
+        top: 200px;
+    }
+
+    #center-nav-container{
+        width: 100%;
+    }
+
+    #logo {
+        width: 350px;
+    }
+
+    .schedule {
+        margin: 0 auto;
+    }
+    
+
 }
